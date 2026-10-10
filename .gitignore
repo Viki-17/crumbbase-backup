@@ -1,0 +1,6 @@
+# Crumbbase backup repo: mirror only, never the runtime DB.
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+.backup-state.json
